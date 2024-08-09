@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pantry Tracker
 
-## Getting Started
+Pantry Tracker is a web app for managing your pantry effortlessly. Built with React, Next.js, and Material UI it offers secure user authentication via Firebase and robust database management. Track item quantities, add or decrease new products, and search your inventory with ease.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Technologies](#technologies)
+- [Features](#features)
+- [Acknowledgements](#acknowledgements)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies
+- Built React for for managing state and side effects and NextJS for server-side rendering and static site generation
+- Styled responsively with Material UI 
+- Firebase Integration for secure authentication and database management
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
+- Provides secure login functionality with Firebase Authentication, ensuring each user has a unique database with their own data.
+- Effortlessly manage your pantry with a comprehensive tracker. View the current count of items, add new items to increase quantities, decrease quantities based on usage, and clear quantities to reset stock.
+- The integrated search bar allows you to easily find and filter items, making it simple to locate specific products in your inventory.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Acknowledgements
+- [Building an Inventory Management App with Next.js, React, and Firebase](https://medium.com/@billzhangsc/building-an-inventory-management-app-with-next-js-react-and-firebase-e9647a61eb82) by Bill Zhang
