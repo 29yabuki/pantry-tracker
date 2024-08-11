@@ -2,6 +2,7 @@
 
 Pantry Tracker is a web app for managing your pantry effortlessly. Built with React, Next.js, and Material UI it offers secure user authentication via Firebase and robust database management. Track item quantities, add or decrease new products, and search your inventory with ease.
 
+You can visit the website [here](https://pantry-tracker-pi-neon.vercel.app/).
 
 - [Technologies](#technologies)
 - [Features](#features)
